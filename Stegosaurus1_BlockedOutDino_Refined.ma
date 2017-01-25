@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Stegosaurus1_BlockedOutDino.ma
-//Last modified: Tue, Jan 24, 2017 09:00:52 PM
+//Name: Stegosaurus1_BlockedOutDino_Refined.ma
+//Last modified: Tue, Jan 24, 2017 09:02:23 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "440C0695-466E-0DC1-3608-5CB48164E762";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 16.515671038601617 0.61298015911535009 -2.473637455256759 ;
-	setAttr ".r" -type "double3" 7.4616472173675659 -3870.5999999984679 0 ;
+	setAttr ".t" -type "double3" 15.980745180969553 2.6670763694958124 4.0878850849673078 ;
+	setAttr ".r" -type "double3" -1.5383527821384484 -3884.1999999984046 8.1034929666385031e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F75B5BBF-4B57-891C-A291-75B510921DCD";
 	setAttr -k off ".v" no;
@@ -3594,4 +3594,4 @@ connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
-// End of Stegosaurus1_BlockedOutDino.ma
+// End of Stegosaurus1_BlockedOutDino_Refined.ma
